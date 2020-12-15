@@ -1,5 +1,9 @@
+body {
+  background-image: url(./assets/background.png);
+}
+
 .container {
-  margin: 15% 4.1665% 15%; 
+  margin: 10% 4.1665% 10%; 
   padding: 20px 20px 50px 20px;
 }
 
