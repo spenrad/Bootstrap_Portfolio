@@ -19,6 +19,11 @@ body {
 
 #stripe {
   height: 8px;
+  background-color: #4baaa5;
+}
+
+h1 {
+  color: #4baaa5;
 }
 
 footer {
