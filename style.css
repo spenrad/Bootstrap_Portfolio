@@ -1,5 +1,5 @@
 .container {
-  margin: 15% 5% 15%; 
+  margin: 15% 4.1665% 15%; 
   padding: 20px 20px 50px 20px;
 }
 
@@ -10,7 +10,7 @@
 .aboutimg {
   float: left;
   margin-right: 20px;
-  height: 222px;
+  height: 200px;
 }
 
 #stripe {
@@ -23,3 +23,8 @@ bottom: 0;
 left: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 58.333%;
+  }
+}
