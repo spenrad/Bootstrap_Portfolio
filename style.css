@@ -1,42 +1,54 @@
+/* Google font family */
 nav {
   font-family: 'DM Serif Text', serif;
   font-weight: 0;
 }
 
+/* background image courtesy of www.subtlepatterns.com */
 body {
   background-image: url(./assets/background.png);
 }
 
+/* just a little touching up to the container to make it play nice */
 .container {
   margin: 10% 4.1665% 10%; 
   padding: 20px 20px 50px 20px;
 }
 
+
+/* aligns text before collapse to the right, initially aligned to left */
 #navbarNavAltMarkup {
   width: auto;
 }
 
+/* portfolio images need a little space to breathe */
 .img-fluid {
   margin: 20px 0;
 }
 
+/* floating the about me image allows the text to wrap around it */
 .aboutimg {
   float: left;
   margin-right: 20px;
   height: 200px;
 }
 
+
+/* using the unique color found here and the chosen google font's font family */
 h1 {
   color: #4baaa5;
   font-family: 'DM Serif Text', serif;
   font-weight: 500;
 }
 
+
+/* styling for the div in the footer to give a little accent to the footer */
 #stripe {
   height: 8px;
   background-color: #4baaa5;
 }
 
+/* footer is sticky! */
 footer {
 position: fixed;
 bottom: 0;
