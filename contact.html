@@ -3,21 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!-- Google Font Reference -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    
+    <!-- Minimal styling used by myself -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- Website Title -->
     <title>Spencer Christy's Portfolio</title>
   </head>
-  <body class="bg-secondary">
+  <body>
+    
+    <!-- Boostrap Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
+          
+          <!-- Some in-line styling to achieve the proper color here -->
           <a class="navbar-brand text-white mx-3" style="background-color: #4baaa5">Spencer Christy</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+              
+              <!-- "Active" link will not be faded, links go to each respective page-->
               <a class="nav-link active" aria-current="page" href="#">Contact</a>
               <a class="nav-link" href="portfolio.html">Portfolio</a>
               <a class="nav-link" href="index.html">About</a>
@@ -25,33 +39,64 @@
           </div>
         </div>
     </nav>
+    
+    <!-- Parent container to contain form -->
     <div class="container bg-white col-md-7 col-sm-7 col-11">
-        <h1>Contact</h1>
+        
+      <!-- Main Header for page -->
+      <h1>Contact</h1>
         <hr>
-      <div class="row">
+
+        <!-- Boostrap form component col here ensure proper length of form input box-->
         <form class="col-md-10 col-sm-10 col-10">
+          
+          <!-- First field utilizing bootsrap built in margin adjustments -->
           <div class="mb-3 mx-3">
-            <label for="exampleInputName1" class="form-label">Name</label>
+            
+            <!-- Title of field, 'Name' -->
+            <label class="form-label">Name</label>
+            
+            <!-- Placeholder 'Name' shows a faded 'Name' in the field -->
             <input type="Name" class="form-control" id="exampleName1" placeholder="Name">
           </div>
+          
+          <!-- Second field utilizing bootsrap built in margin adjustments -->
           <div class="mb-3 mx-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+            
+            <!-- Title of field, 'Email' -->
+            <label class="form-label">Email</label>
+            
+            <!-- Placeholder 'Enail' shows a faded 'Email' in the field -->
+            <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
+
+          <!-- Second field utilizing bootsrap built in margin adjustments -->
           <div class="mb-3 mx-3">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control my-2" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            
+            <!-- Title of field, 'Message' -->
+            <label class="form-label">Message</label>
+            
+            <!-- Form-control allows the user to drag the form to their desired heigh, the default height here is 4 rows -->
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
           </div>
+          
+          <!-- Boostrap button using built in margin and padding controls, with some in-line stling by me to match color -->
+          <!-- When active this button will submit form information, sending the information to a database I control -->
           <button type="submit " class="btn btn-outline-transparent py-3 px-4 my-2" style="background-color: #4baaa5; color: #ffffff;">Submit</button>
         </form>
-      </div>
     </div>
-  <footer class="container-fluid">
+  
+    <!-- Sticky footer -->
+    <footer class="container-fluid">
       <div class="row" id="stripe"></div>
       <div class="row bg-dark p-3">
+        
+        <!-- I made this -->
         <h6 class="text-center text-muted">&copy; Copyright</h6>
       </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>

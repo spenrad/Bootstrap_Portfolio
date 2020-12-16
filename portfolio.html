@@ -3,21 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!-- Google Font Reference -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    
+    <!-- Minimal styling used by myself -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- Website Title -->
     <title>Spencer Christy's Portfolio</title>
   </head>
-  <body class="bg-secondary">
+  <body>
+    
+    <!-- Boostrap Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
+          
+          <!-- Some in-line styling to achieve the proper color here -->
           <a class="navbar-brand text-white mx-3" style="background-color: #4baaa5">Spencer Christy</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+              
+              <!-- "Active" link will not be faded, links go to each respective page-->
               <a class="nav-link" href="contact.html">Contact</a>
               <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
               <a class="nav-link" href="index.html">About</a>
@@ -25,33 +39,50 @@
           </div>
         </div>
       </nav>
+    
+    <!-- Parent container for portfolio grid-->
     <div class="container bg-white col-md-7 col-sm-7 col-11">
-          <h1>Portfolio</h1>
+          
+      <!-- Main Header for page -->
+      <h1>Portfolio</h1>
           <hr>
+
+      <!-- First row in grid, the grid will be be 2 images wide and 3 images tall-->
+      <!-- The class="img-fluid" insures the images will be responsive to page resizing -->
       <div class="row">
         <div class="col-md-6"><img src="https://via.placeholder.com/350" class="img-fluid" alt="placeholder" />
         </div>
         <div class="col-md-6"><img src="https://via.placeholder.com/350" class="img-fluid" alt="placeholder" />
         </div>
       </div>
+      
+      <!-- Second row in grid-->
       <div class="row">
         <div class="col-md-6"><img src="https://via.placeholder.com/350" class="img-fluid" alt="placeholder" />
         </div>
         <div class="col-md-6"><img src="https://via.placeholder.com/350" class="img-fluid" alt="placeholder" />
         </div>
       </div>
+      
+      <!-- Third row in grid, there is only one image here however-->
+      <!-- When the page is resized, the images will be in a single column, 5 images tall -->
       <div class="row">
         <div class="col-md-6"><img src="https://via.placeholder.com/350" class="img-fluid" alt="placeholder" />
         </div>
       </div>
     </div>
   
-  <footer class="container-fluid">
+    <!-- Sticky footer -->
+    <footer class="container-fluid">
         <div class="row" id="stripe"></div>
         <div class="row bg-dark p-3">
+          
+          <!-- I made this -->
           <h6 class="text-center text-muted">&copy; Copyright 2020  Spencer Christy</h6>
         </div>
-  </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </footer>
+    
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
