@@ -23,19 +23,19 @@ This project includes Bootstrap components that were formatted in mere seconds t
 
 In the next images you will see a Navigation Bar and a grid of images that were formatted using solely Bootstrap.
 
-![Demo](assets/992.jpg)
+![992px](assets/992.JPG)
 
 This may not look like much, but once the page resizes Bootstrap's power is realized.
 
-![Demo](assets/lt768.jpg)
+![Less Than 768px](assets/lt768.JPG)
 
 The Navigation Bar collapses and the grid of images reorganizes itself in a very responsive manner, and this is all built in to Bootstrap, no other styling or formatting was necesary. Even at smaller dimensions, the webpage remains responsive in different ways thanks to Bootstrap.
 
-![Demo](assets/ls576.jpg)
+![Less Than 576px](assets/ls576.JPG)
 
 It is even easy to customize one's website for mobile devices.
 
-![Demo](assets/400px.jpg)
+![400px](assets/400px.JPG)
 
 The code here is very simple
 ```
@@ -62,14 +62,23 @@ This alone will give the responsiveness that is seen in the webpage. As for the 
 * Google Fonts
 * Git
 * GitHub
-* subtlepatterns.com
+* [subtlepatterns.com](https://www.toptal.com/designers/subtlepatterns/swirl-2/)
 
 ----
-
-## Acknowledgements
-Thank you to [subltpatterns.com](https://www.toptal.com/designers/subtlepatterns/swirl-2/) for providing the background image used on the page. Its a great website for exactly what it says, subtle patterns.
 
 ## Author
 Spencer Christy<br>
 [GitHub](https://github.com/spenrad)<br>
 [LinkedIn](https://www.linkedin.com/in/spencer-christy-543b84b3/)<br>
+
+----
+
+## Other Contributors
+Frank Grießhammer of Colophon Foundry designed the font used from Google Fonts titled "DM Serif Text."
+
+----
+
+## Acknowledgements
+Thank you to subtlepatterns.com for providing the background image used on the page. Its a great website for exactly what it says, subtle patterns.
+
+And thank you for reading and viewing the webpage.
